@@ -7,6 +7,9 @@
   "exports": {
     ".": "./dist/index.mjs"
   },
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.mts",
   "scripts": {
     "build": "rimraf dist && tsc",
